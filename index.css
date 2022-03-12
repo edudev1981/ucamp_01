@@ -129,70 +129,6 @@ h4 {
 	right: 6px;
 }
 
-/* seccion ABOUT */
-.about {
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #191919;
-}
-
-.about img {
-	height: auto;
-	width: 430px;
-}
-
-.about-text {
-	width: 550px;
-}
-
-.acerca_caja {
-	width: 95px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.about-text h2 {
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-
-.about-text h5 {
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
-}
-
-.about-text p {
-	color: #fcea85;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-}
-
-button {
-	background-color: #f9bf00;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s;
-}
-
-button:hover {
-	background-color: transparent;
-	border: 2px solid #f9bf00;
-	cursor: pointer;
-}
 
 /* ======================================== */
 /* SECCION SERVICIO */
@@ -273,6 +209,81 @@ h5 {
 	border: 2px solid #f9bf00;
 	cursor: pointer;
 }
+
+/****************************************************/
+/* seccion ABOUT */
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about > h2{
+	text-align: center;
+
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+/* lado a */
+.about img {
+	height: auto;
+	width: 40%;
+}
+/* lado b */
+.about-text {
+	width: 40%;
+}
+
+.acerca_caja {
+	width: 100vh;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/* .about-text h2 {
+
+} */
+
+.about-text h5 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.about-text p {
+	color: #fcea85;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+button {
+	background-color: #f9bf00;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+	
+}
+
+button:hover {
+	background-color: transparent;
+	border: 2px solid #f9bf00;
+	cursor: pointer;
+}
+
 
 /* SECCION CONTACTO */
 .contacto {
@@ -465,9 +476,9 @@ footer p:nth-child(2) {
 		width: 90%;
 	}
 
-	.about-text h2 {
+	.about > h2 {
 		/* color: white; */
-		text-align: center;
+		/* text-align: center; */
 		font-size: 40px;
 		/* text-transform: capitalize; */
 		margin-bottom: 10px;
@@ -551,7 +562,7 @@ footer p:nth-child(2) {
 		height: auto;
 		width: 120px;
 	}
-	.about-text h2 {
+	.about > h2{
 		font-size: 25px;
 		margin-bottom: 10px;
 	}
