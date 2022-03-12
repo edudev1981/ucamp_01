@@ -574,3 +574,9 @@ footer p:nth-child(2) {
 		height: 250px;
 	}
 }
+@media only screen and (max-width: 380px) {
+	.pra p {
+		font-size: 15px;
+	}
+
+}
