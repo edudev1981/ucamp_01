@@ -509,7 +509,12 @@ footer p:nth-child(2) {
 	.logo {
 		font-size: 17px;
 	}
-	
+	nav ul li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 10px 10px;
+		font-size: 15px;
+	}
 
 
 
