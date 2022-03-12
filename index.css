@@ -7,7 +7,8 @@
 html {
     scroll-behavior: smooth !important;/* con esto se mueve el scroll*/
 }
-.hero{
+/* CABECERA Y PANTALLA INICIO */
+.pantalla0{
     background-color: black;
 	height: 100vh;
 	width: 100%;
@@ -83,6 +84,7 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
+/* 					suscribir */
 .newslatter form{
 	width: 380px;
 	max-width: 100%;
@@ -110,6 +112,7 @@ h4{
 	right: 6px; 
 }
 
+/* seccion ABOUT */
 .about{
 	width: 100%;
 	padding: 100px 0px;
@@ -122,7 +125,7 @@ h4{
 .about-text{
 	width: 550px;
 }
-.main{
+.acerca_caja{
 	width: 1130px;
 	max-width: 95%;
 	margin: 0 auto;
@@ -144,7 +147,7 @@ h4{
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: #fcea85;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -166,6 +169,7 @@ button:hover{
 	cursor: pointer;
 }
 
+/* SECCION SERVICIO */
 .servicio{
 	background: #101010;
 	width: 100%;
@@ -229,6 +233,8 @@ h5{
 	border: 2px solid #f9bf00;
 	cursor: pointer;
 }
+
+/* SECCION CONTACTO */
 .contacto{
 	width: 100%;
 	height: 290px;
@@ -259,6 +265,8 @@ h5{
 	border: 2px solid #f9bf00;
 	cursor: pointer;
 }
+
+/* SECCION FOOTER */
 footer{
 	position: relative;
 	width: 100%;
@@ -282,6 +290,7 @@ footer p:nth-child(2){
 	text-align: center;
 	line-height: 26px;
 }
+/* ICONOS SOCIAL */
 .social{
 	display: flex;
 }
@@ -307,4 +316,98 @@ footer p:nth-child(2){
 	color:#f9bf00;
 	bottom: 35px;
 	font-size: 14px; 
+}
+
+
+@media only screen and (max-width: 700px) {
+	/* cabecera */
+	.logo{
+		font-size: 18px;
+	}
+	nav{
+		padding-top: 15px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.btn{
+		border: 1px solid transparent;
+		padding: 5px 5px;
+		border-radius: 10px;
+	}
+	/* servicios */
+	.title h2{
+		font-size: 40px;
+		width: 90%;
+		margin: 10px auto;
+	}
+	.tarjeta{
+		padding: 5px 5px;
+		border-radius: 10px;
+		margin: 5px;
+	}
+	.tarjeta i{
+		font-size: 30px;
+		margin: 5px 0px;
+	}
+	h5{
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.pra p{
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 0px;
+	}
+			/* tiene q ir siempre abajo */
+	.tarjeta .button{
+		border: 1px solid transparent;
+		font-weight:lighter;
+		padding: 5px 5px;
+		border-radius: 10px;
+	}
+	/* acerca */
+	.about img{
+		height: auto;
+		width: 150px;
+	}
+	.about-text{
+		width: 80%;
+	}
+	.acerca_caja{
+		width: 90%;
+	}
+	.about-text h2{
+		/* color: white; */
+		text-align: center;
+		font-size: 40px;
+		/* text-transform: capitalize; */
+		margin-bottom: 10px;
+	}
+	.about-text h5{
+		letter-spacing: 2px;
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.about-text p{
+		/* color: #fcea85; */
+		/* letter-spacing: 1px; */
+		line-height: 28px;
+		font-size: 15px;
+		margin-bottom: 25px;
+	}
+	button{
+		/* background-color:#f9bf00; */
+		/* color: white; */
+		/* text-decoration: none; */
+		/* border: 2px solid transparent; */
+		/* font-weight: bold; */
+		padding: 13px 13px;
+		border-radius: 10px;
+		/* transition: .4s;  */
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
 }
