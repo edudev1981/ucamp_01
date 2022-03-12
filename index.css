@@ -569,4 +569,8 @@ footer p:nth-child(2) {
 		font-size: 15px;
 		margin-bottom: 25px;
 	}
+
+	footer {
+		height: 250px;
+	}
 }
