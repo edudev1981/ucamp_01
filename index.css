@@ -590,4 +590,11 @@ footer p:nth-child(2) {
 		font-size: 15px;
 	}
 
+	.about-text p {
+		/* color: #fcea85; */
+		/* letter-spacing: 1px; */
+		line-height: 15px;
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
 }
