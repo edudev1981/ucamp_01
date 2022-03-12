@@ -4,6 +4,9 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth !important;/* con esto se mueve el scroll*/
+}
 .hero{
     background-color: black;
 	height: 100vh;
